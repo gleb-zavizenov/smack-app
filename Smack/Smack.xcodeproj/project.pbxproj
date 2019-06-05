@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9817450522A74045006EDF7D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817450422A74045006EDF7D /* GradientView.swift */; };
+		9817450822A757BB006EDF7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817450722A757BB006EDF7D /* Constants.swift */; };
+		9817450A22A76069006EDF7D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817450922A76069006EDF7D /* LoginVC.swift */; };
 		98DC8EA222A5F3EE007AAB11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC8EA122A5F3EE007AAB11 /* AppDelegate.swift */; };
 		98DC8EA722A5F3EE007AAB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DC8EA522A5F3EE007AAB11 /* Main.storyboard */; };
 		98DC8EA922A5F3EF007AAB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DC8EA822A5F3EF007AAB11 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		6528CD864673933990DE4871 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D8E214E8A12B7BAC16C652 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 		9817450422A74045006EDF7D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		9817450722A757BB006EDF7D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9817450922A76069006EDF7D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		98DC8E9E22A5F3EE007AAB11 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DC8EA122A5F3EE007AAB11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98DC8EA622A5F3EE007AAB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +61,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9817450622A7579C006EDF7D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9817450722A757BB006EDF7D /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		98DC8E9522A5F3EE007AAB11 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +90,7 @@
 		98DC8EA022A5F3EE007AAB11 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				9817450622A7579C006EDF7D /* Utilities */,
 				98DC8EBB22A60206007AAB11 /* Model */,
 				98DC8EBA22A60201007AAB11 /* View */,
 				98DC8EB922A601FA007AAB11 /* Controller */,
@@ -107,6 +120,7 @@
 			children = (
 				98DC8EBC22A6026D007AAB11 /* ChannelVC.swift */,
 				98DC8EBE22A6027A007AAB11 /* ChatVC.swift */,
+				9817450922A76069006EDF7D /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -253,9 +267,11 @@
 			files = (
 				98DC8EBF22A6027A007AAB11 /* ChatVC.swift in Sources */,
 				98DC8EA222A5F3EE007AAB11 /* AppDelegate.swift in Sources */,
+				9817450A22A76069006EDF7D /* LoginVC.swift in Sources */,
 				9817450522A74045006EDF7D /* GradientView.swift in Sources */,
 				98DC8EBD22A6026D007AAB11 /* ChannelVC.swift in Sources */,
 				98DC8EB822A5FE98007AAB11 /* SWRevealViewController.m in Sources */,
+				9817450822A757BB006EDF7D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
